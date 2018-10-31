@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D09476E921820F2100C54A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09476E821820F2100C54A52 /* AppDelegate.swift */; };
+		D09476EB21820F2100C54A52 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09476EA21820F2100C54A52 /* TableViewController.swift */; };
+		D09476ED21820F2300C54A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09476EC21820F2300C54A52 /* Assets.xcassets */; };
+		D09476F021820F2300C54A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09476EE21820F2300C54A52 /* Main.storyboard */; };
+		D09476FC21820F2300C54A52 /* OSU_UWRT_BBOXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09476FB21820F2300C54A52 /* OSU_UWRT_BBOXTests.swift */; };
+		D094770721820F2300C54A52 /* OSU_UWRT_BBOXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094770621820F2300C54A52 /* OSU_UWRT_BBOXUITests.swift */; };
+		D0F83B6B21823065005697D4 /* view.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F83B6A21823065005697D4 /* view.xib */; };
+		D0F83B6F2182353C005697D4 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F83B6E2182353C005697D4 /* Video.swift */; };
+		D0F83B7321824098005697D4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F83B7221824098005697D4 /* Settings.swift */; };
+		D0F83B75218242B2005697D4 /* Execute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F83B74218242B2005697D4 /* Execute.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09476F821820F2300C54A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09476DD21820F2100C54A52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09476E421820F2100C54A52;
+			remoteInfo = OSU_UWRT_BBOX;
+		};
+		D094770321820F2300C54A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09476DD21820F2100C54A52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09476E421820F2100C54A52;
+			remoteInfo = OSU_UWRT_BBOX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D09476E521820F2100C54A52 /* OSU_UWRT_BBOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSU_UWRT_BBOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09476E821820F2100C54A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D09476EA21820F2100C54A52 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D09476EC21820F2300C54A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D09476EF21820F2300C54A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D09476F121820F2300C54A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09476F221820F2300C54A52 /* OSU_UWRT_BBOX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OSU_UWRT_BBOX.entitlements; sourceTree = "<group>"; };
+		D09476F721820F2300C54A52 /* OSU_UWRT_BBOXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSU_UWRT_BBOXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09476FB21820F2300C54A52 /* OSU_UWRT_BBOXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSU_UWRT_BBOXTests.swift; sourceTree = "<group>"; };
+		D09476FD21820F2300C54A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D094770221820F2300C54A52 /* OSU_UWRT_BBOXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSU_UWRT_BBOXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D094770621820F2300C54A52 /* OSU_UWRT_BBOXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSU_UWRT_BBOXUITests.swift; sourceTree = "<group>"; };
+		D094770821820F2300C54A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F83B6A21823065005697D4 /* view.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = view.xib; sourceTree = "<group>"; };
+		D0F83B6E2182353C005697D4 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		D0F83B7221824098005697D4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D0F83B74218242B2005697D4 /* Execute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Execute.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09476E221820F2100C54A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09476F421820F2300C54A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09476FF21820F2300C54A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D09476DC21820F2100C54A52 = {
+			isa = PBXGroup;
+			children = (
+				D09476E721820F2100C54A52 /* OSU_UWRT_BBOX */,
+				D09476FA21820F2300C54A52 /* OSU_UWRT_BBOXTests */,
+				D094770521820F2300C54A52 /* OSU_UWRT_BBOXUITests */,
+				D09476E621820F2100C54A52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09476E621820F2100C54A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09476E521820F2100C54A52 /* OSU_UWRT_BBOX.app */,
+				D09476F721820F2300C54A52 /* OSU_UWRT_BBOXTests.xctest */,
+				D094770221820F2300C54A52 /* OSU_UWRT_BBOXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09476E721820F2100C54A52 /* OSU_UWRT_BBOX */ = {
+			isa = PBXGroup;
+			children = (
+				D09476E821820F2100C54A52 /* AppDelegate.swift */,
+				D09476EA21820F2100C54A52 /* TableViewController.swift */,
+				D0F83B74218242B2005697D4 /* Execute.swift */,
+				D0F83B6E2182353C005697D4 /* Video.swift */,
+				D0F83B7221824098005697D4 /* Settings.swift */,
+				D09476EC21820F2300C54A52 /* Assets.xcassets */,
+				D09476EE21820F2300C54A52 /* Main.storyboard */,
+				D0F83B6A21823065005697D4 /* view.xib */,
+				D09476F121820F2300C54A52 /* Info.plist */,
+				D09476F221820F2300C54A52 /* OSU_UWRT_BBOX.entitlements */,
+			);
+			path = OSU_UWRT_BBOX;
+			sourceTree = "<group>";
+		};
+		D09476FA21820F2300C54A52 /* OSU_UWRT_BBOXTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09476FB21820F2300C54A52 /* OSU_UWRT_BBOXTests.swift */,
+				D09476FD21820F2300C54A52 /* Info.plist */,
+			);
+			path = OSU_UWRT_BBOXTests;
+			sourceTree = "<group>";
+		};
+		D094770521820F2300C54A52 /* OSU_UWRT_BBOXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D094770621820F2300C54A52 /* OSU_UWRT_BBOXUITests.swift */,
+				D094770821820F2300C54A52 /* Info.plist */,
+			);
+			path = OSU_UWRT_BBOXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09476E421820F2100C54A52 /* OSU_UWRT_BBOX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D094770B21820F2300C54A52 /* Build configuration list for PBXNativeTarget "OSU_UWRT_BBOX" */;
+			buildPhases = (
+				D09476E121820F2100C54A52 /* Sources */,
+				D09476E221820F2100C54A52 /* Frameworks */,
+				D09476E321820F2100C54A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSU_UWRT_BBOX;
+			productName = OSU_UWRT_BBOX;
+			productReference = D09476E521820F2100C54A52 /* OSU_UWRT_BBOX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09476F621820F2300C54A52 /* OSU_UWRT_BBOXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D094770E21820F2300C54A52 /* Build configuration list for PBXNativeTarget "OSU_UWRT_BBOXTests" */;
+			buildPhases = (
+				D09476F321820F2300C54A52 /* Sources */,
+				D09476F421820F2300C54A52 /* Frameworks */,
+				D09476F521820F2300C54A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09476F921820F2300C54A52 /* PBXTargetDependency */,
+			);
+			name = OSU_UWRT_BBOXTests;
+			productName = OSU_UWRT_BBOXTests;
+			productReference = D09476F721820F2300C54A52 /* OSU_UWRT_BBOXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D094770121820F2300C54A52 /* OSU_UWRT_BBOXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D094771121820F2300C54A52 /* Build configuration list for PBXNativeTarget "OSU_UWRT_BBOXUITests" */;
+			buildPhases = (
+				D09476FE21820F2300C54A52 /* Sources */,
+				D09476FF21820F2300C54A52 /* Frameworks */,
+				D094770021820F2300C54A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D094770421820F2300C54A52 /* PBXTargetDependency */,
+			);
+			name = OSU_UWRT_BBOXUITests;
+			productName = OSU_UWRT_BBOXUITests;
+			productReference = D094770221820F2300C54A52 /* OSU_UWRT_BBOXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09476DD21820F2100C54A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Benjamin Hobson";
+				TargetAttributes = {
+					D09476E421820F2100C54A52 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D09476F621820F2300C54A52 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D09476E421820F2100C54A52;
+					};
+					D094770121820F2300C54A52 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D09476E421820F2100C54A52;
+					};
+				};
+			};
+			buildConfigurationList = D09476E021820F2100C54A52 /* Build configuration list for PBXProject "OSU_UWRT_BBOX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09476DC21820F2100C54A52;
+			productRefGroup = D09476E621820F2100C54A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09476E421820F2100C54A52 /* OSU_UWRT_BBOX */,
+				D09476F621820F2300C54A52 /* OSU_UWRT_BBOXTests */,
+				D094770121820F2300C54A52 /* OSU_UWRT_BBOXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09476E321820F2100C54A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F83B6B21823065005697D4 /* view.xib in Resources */,
+				D09476ED21820F2300C54A52 /* Assets.xcassets in Resources */,
+				D09476F021820F2300C54A52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09476F521820F2300C54A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D094770021820F2300C54A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09476E121820F2100C54A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09476EB21820F2100C54A52 /* TableViewController.swift in Sources */,
+				D0F83B6F2182353C005697D4 /* Video.swift in Sources */,
+				D0F83B7321824098005697D4 /* Settings.swift in Sources */,
+				D0F83B75218242B2005697D4 /* Execute.swift in Sources */,
+				D09476E921820F2100C54A52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09476F321820F2300C54A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09476FC21820F2300C54A52 /* OSU_UWRT_BBOXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09476FE21820F2300C54A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D094770721820F2300C54A52 /* OSU_UWRT_BBOXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09476F921820F2300C54A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09476E421820F2100C54A52 /* OSU_UWRT_BBOX */;
+			targetProxy = D09476F821820F2300C54A52 /* PBXContainerItemProxy */;
+		};
+		D094770421820F2300C54A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09476E421820F2100C54A52 /* OSU_UWRT_BBOX */;
+			targetProxy = D094770321820F2300C54A52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D09476EE21820F2300C54A52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09476EF21820F2300C54A52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D094770921820F2300C54A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D094770A21820F2300C54A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D094770C21820F2300C54A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSU_UWRT_BBOX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "osu-uwrt.OSU-UWRT-BBOX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		D094770D21820F2300C54A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSU_UWRT_BBOX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "osu-uwrt.OSU-UWRT-BBOX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		D094770F21820F2300C54A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSU_UWRT_BBOXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "osu-uwrt.OSU-UWRT-BBOXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSU_UWRT_BBOX.app/Contents/MacOS/OSU_UWRT_BBOX";
+			};
+			name = Debug;
+		};
+		D094771021820F2300C54A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSU_UWRT_BBOXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "osu-uwrt.OSU-UWRT-BBOXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSU_UWRT_BBOX.app/Contents/MacOS/OSU_UWRT_BBOX";
+			};
+			name = Release;
+		};
+		D094771221820F2300C54A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSU_UWRT_BBOXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "osu-uwrt.OSU-UWRT-BBOXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = OSU_UWRT_BBOX;
+			};
+			name = Debug;
+		};
+		D094771321820F2300C54A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSU_UWRT_BBOXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "osu-uwrt.OSU-UWRT-BBOXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = OSU_UWRT_BBOX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09476E021820F2100C54A52 /* Build configuration list for PBXProject "OSU_UWRT_BBOX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D094770921820F2300C54A52 /* Debug */,
+				D094770A21820F2300C54A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D094770B21820F2300C54A52 /* Build configuration list for PBXNativeTarget "OSU_UWRT_BBOX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D094770C21820F2300C54A52 /* Debug */,
+				D094770D21820F2300C54A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D094770E21820F2300C54A52 /* Build configuration list for PBXNativeTarget "OSU_UWRT_BBOXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D094770F21820F2300C54A52 /* Debug */,
+				D094771021820F2300C54A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D094771121820F2300C54A52 /* Build configuration list for PBXNativeTarget "OSU_UWRT_BBOXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D094771221820F2300C54A52 /* Debug */,
+				D094771321820F2300C54A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D09476DD21820F2100C54A52 /* Project object */;
+}
